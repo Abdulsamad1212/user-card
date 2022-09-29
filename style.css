@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    /*from here i am styling the main body elements  */
+}
+.container{
+    height: 600px;
+    width: 420px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgb(13, 13, 13);
+    border-top-left-radius:40px ;
+    border-top-right-radius:40px ;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+    box-shadow: 2px 2px 5px #f50f21;
+
+    margin: 70px 500px;
+    background-color: #4d6281
+}
+/* styling the name */
+.name>h1{
+    color: #0a100b;
+    height: 49px;
+    width:px;
+    margin-top: 16px;
+    background-color: white;
+    margin-left: 9px;
+    margin-bottom: -10px;
+    border: none;
+    border-top-left-radius: 40px;
+    border-right-top-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.name> p{}
+
+/* here is the profile pic part */
+
+.pic > img{
+    height: 210px;
+    width: 208px;
+    border-radius: 50%;
+    margin-top: 22px;
+}
+
+/* this is about section */
+.para{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: inherit;
+    color: white;
+    padding: 26px;
+    word-spacing: 4px;
+}
+.N1{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 2px;
+    text-transform: uppercase;
+    margin-left: 24px;
+}
+/* design button */
+.btn{
+    padding: 24px 22px;
+}
+.btn> button{
+    
+    padding: 10px 21px;
+    margin: 0 38px;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+    border: none;
+    cursor: pointer;
+}
+.btn1{
+    background-color: rgb(66, 66, 226);
+    color:#f1f1f1;
+}
+.btn2{
+    color:#0d090a;
+
+}
+/* at the end social icons */
+.icon{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 80px;
+    margin-top: 1px;
